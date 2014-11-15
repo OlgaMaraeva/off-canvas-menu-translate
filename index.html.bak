@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="carusel/css/carusel.css">
+		<link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+	
+ <div class="wrapper-for-content-outside-of-footer"> 
+
+<!-- start left-floating menu -->
+		 <div class="floating-menu">
+		 <div class="close-menu"><img src="img/close-icon.png" alt="" title=""></div>
+		  <ul>
+			 <li>Mersedes - my lovely car</li>
+			 <ul>
+			 <li>Someday i will buy car</li>
+			 </ul>
+			 <li>Mersedes - my lovely car</li>
+			 <li>Mersedes - my lovely car</li>
+		  </ul>
+			 </div>
+<!-- end left-floating menu -->
+ 
+          <header>
+            <img src="img/banner.jpg" alt="" title="">
+			<nav>
+			<ul>
+			<li><a class="">A</a></li>
+			<li><a class="">C</a></li>
+			<li><a class="">E</a></li>
+			<li><a class="">G</a></li>
+			<li><a class="">S</a></li>
+			</nav>
+             
+			 <div class="main-line">
+			 <div class="mobile-icon"><div class="mobile-menu"><img src="img/mobile-menu.png" alt="" title=""></div></div>
+			 <div class="company"><img src="img/logo.png" alt="" title=""></div>
+			 <div class="dropdown-wrapper">
+			 <div class="dropdown">
+  <button class="dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+    Only in November! Mersedes for 1$!
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu2">
+  <li role="presentation" class="dropdown-header">Dropdown header</li>
+  ...
+  <li role="presentation" class="divider"></li>
+  <li role="presentation" class="dropdown-header">Dropdown header</li>
+  ...
+</ul>
+</div>
+</div>
+
+			 <div class="social-icons">
+			  <ul>
+        <li><a href="javascript:void(0)">
+          <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/facebook-logo-circle.png" alt="Facebook">
+          </a></li>
+        <li><a href="javascript:void(0)">
+          <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/twitter-logo-circle.png" alt="Twitter">
+        </a></li>
+        <li><a href="javascript:void(0)">
+          <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/youtube-logo-circle.png" alt="YouTube">
+        </a></li>
+      </ul>
+			 </div>
+			 <div class="seach"><div class="seach-ripple">&nbsp</div><img src="img/search-icon-red.png" alt="" title=""></div>
+			 </div>
+			 
+			 <!-- start top-floating-menu -->
+			 <div class="top-floating-menu">Seach form</div>
+			 <!-- end top-floating-menu -->
+          </header>
+		  
+		  		  
+          <section id="content">
+		  <div class="info">
+		  <!-- start vertical-tabs-container -->
+		  <div class="vertical-tabs-container">
+  <div class="vertical-tabs">
+    <a href="#" class="js-vertical-tab vertical-tab is-active" rel="tab1">Item 1</a>
+    <a href="#" class="js-vertical-tab vertical-tab" rel="tab2">Item 2</a>
+    <a href="#" class="js-vertical-tab vertical-tab" rel="tab3">Item 3</a>
+    <a href="#" class="js-vertical-tab vertical-tab" rel="tab4">Item 4</a>
+  </div>
+
+  <div class="vertical-tab-content-container">
+    <a href="" class="js-vertical-tab-accordion-heading vertical-tab-accordion-heading is-active" rel="tab1">Item 1</a>
+    <div id="tab1" class="js-vertical-tab-content vertical-tab-content">
+	  <img src="https://www.mercedes-amg.com/img/home/home_12.jpg">
+    </div>
+
+    <a href="" class="js-vertical-tab-accordion-heading vertical-tab-accordion-heading" rel="tab2">Item 2</a>
+    <div id="tab2" class="js-vertical-tab-content vertical-tab-content">
+		<img src="http://o.aolcdn.com/dims-shared/dims3/GLOB/crop/668x436+30+0/resize/628x410!/format/jpg/quality/85/http://o.aolcdn.com/hss/storage/midas/ec18631ea2b30ccef4f61e7351f46a92/200108672/1994-Chevrolet-Highlander-Concept-001.jpg" alt="">
+    	</div>
+
+    <a href="" class="js-vertical-tab-accordion-heading vertical-tab-accordion-heading" rel="tab3">Item 3</a>
+    <div id="tab3" class="js-vertical-tab-content vertical-tab-content">
+      <img src="http://o.aolcdn.com/hss/storage/adam/c68b8ec170eff88e965cb03aadff2391/dodge-charger-satin-vapor-chicago.jpg">
+    </div>
+
+    <a href="" class="js-vertical-tab-accordion-heading vertical-tab-accordion-heading" rel="tab4">Item 4</a>
+    <div id="tab4" class="js-vertical-tab-content vertical-tab-content">
+      <img src="http://o.aolcdn.com/dims-shared/dims3/GLOB/crop/1268x849+0+0/resize/628x417!/format/jpg/quality/85/http://o.aolcdn.com/hss/storage/adam/6b2e374deffa9af69221b7c1455e2f41/01-2015-subaru-legacy-chicago-1.jpg alt="">
+    </div>
+  </div>
+</div><!-- end vertical-tabs-container -->
+
+<!-- Start Icon Bullet Points -->
+<ul class="bullets">
+  <li class="bullet three-col-bullet">
+    <div class="bullet-content">
+      <h4><img src="http://bourbon.io/images/bourbon-nav/neat.png">BulletTitle</h4>
+      <p>Lorem ipsum sit amet consectetur adipisicing elit. Doloremque, minus, blanditiis, voluptatibus nulla quia ipsam sequi quos iusto aliquam iste magnam accusamus molestias quo illum impedit.</p>
+	  <br>
+	  <button>Details</button>
+      </div>
+  </li>  
+  <li class="bullet three-col-bullet">
+    <div class="bullet-content">
+      <h4><img src="http://bourbon.io/images/bourbon-nav/neat.png">BulletTitle</h4>
+      <p>Lorem ipsum sit amet consectetur adipisicing elit. Doloremque, minus, blanditiis, voluptatibus nulla quia ipsam sequi quos iusto aliquam iste magnam accusamus molestias quo illum impedit.</p>
+	  <br>
+<button>Details</button>
+    </div>
+  </li>
+  <li class="bullet three-col-bullet">
+    <div class="bullet-content">
+      <h4><img src="http://bourbon.io/images/bourbon-nav/neat.png">BulletTitle</h4>
+      <p>Lorem ipsum sit amet consectetur adipisicing elit. Doloremque, minus, blanditiis, voluptatibus nulla quia ipsam sequi quos iusto aliquam iste magnam accusamus molestias quo illum impedit.</p>
+	  <br>
+	  <button>Details</button>
+    </div>
+  </li> 
+</ul>
+<!-- End Icon Bullet Points -->
+<hr>
+
+<!-- Start slider -->
+  
+	<div id="content-slider">
+	
+	<a href="#" class="control_next">>></a>
+  <a href="#" class="control_prev"><<</a>
+
+<div id="slider">
+ 
+    
+
+
+    <div id="modal-background"></div>
+	
+	
+    
+	<div class="modal-content">
+	
+	<div class="modal-close"><img src="img/close-icon.png" alt="" title=""></div>
+        
+  
+   
+   <div class="imageDisplay-wrapper">
+   
+       <div class="imageDisplay">
+        <button class="nextPrev prev-b"  value="0"><<</button>
+  <button class="nextPrev next-b" value="1">>></button>       
+     	   </div>  
+		   
+    <img src="http://o.aolcdn.com/hss/storage/adam/5d7b5eedccc289bd332af80a1ad5a226/montero-2017-us.jpg"><br>
+	</div>
+
+        <p class="title">Title</p>
+        <a class="link" href="http://www.autoblog.com/2014/02/24/mitsubishi-turning-montero-into-crossover-outlander-sport-phev/">Show more >>></a>
+        
+  
+</div>
+
+  
+  <ul  class="gallery">
+    <li>
+<div class="dark-wrapper">
+                <span class="slide-title">Title</span>
+<div class="dark">
+<img src="http://www5.mercedes-benz.com/media/image/master/mercedes-benz-dtm-oschersleben-race-master_1_380_211.jpg" alt="">
+<p>Introducing new models</p>
+<a href="http://www5.mercedes-benz.com/en/">Buy</a>
+
+    </div>
+    </div>
+    
+    
+    <div class="dark-wrapper">
+	<span class="slide-title">Title</span>
+<div class="dark">
+
+<img src="http://o.aolcdn.com/dims-shared/dims3/GLOB/crop/668x436+30+0/resize/628x410!/format/jpg/quality/85/http://o.aolcdn.com/hss/storage/midas/ec18631ea2b30ccef4f61e7351f46a92/200108672/1994-Chevrolet-Highlander-Concept-001.jpg" alt="">
+    <p>The month of March marked a milestone for Mercedes</p>
+<a href="http://www.autoblog.com/2014/05/12/1993-chevy-highlander-concept-ebay-auction/"></a>
+
+    </div>
+    </div>
+    
+    <div class="dark-wrapper">
+	<span class="slide-title">Title</span>
+<div class="dark">
+
+<img src="http://o.aolcdn.com/hss/storage/adam/5d7b5eedccc289bd332af80a1ad5a226/montero-2017-us.jpg">
+    
+	<p>Mercedes-Benz M-Class</p>
+<a href="http://www.autoblog.com/2014/02/24/mitsubishi-turning-montero-into-crossover-outlander-sport-phev/"></a>
+	</div>
+    </div>
+
+        </li>
+    <li>
+        <div class="dark-wrapper">
+		<span class="slide-title">Title</span>
+<div class="dark">
+        <img src="http://o.aolcdn.com/dims-shared/dims3/GLOB/crop/1268x849+0+0/resize/628x417!/format/jpg/quality/85/http://o.aolcdn.com/hss/storage/adam/6b2e374deffa9af69221b7c1455e2f41/01-2015-subaru-legacy-chicago-1.jpg">
+    <p>Mercedes-Benz M-Class</p>
+<a href="http://www.autoblog.com/2014/02/13/new-subaru-legacy-getting-smaller-six-cylinder-sport-models/"></a>
+	</div>
+    </div>
+            
+  <div class="dark-wrapper">
+  <span class="slide-title">Title</span>
+<div class="dark">
+       <img src="http://o.aolcdn.com/hss/storage/adam/a3dbca03bb1d9de4b72dbee90aaa2a07/2014-kia-optima-hybrid-chicago.jpg">
+	   <p>Refreshed Kia Optima Hybrid </p>
+<a href="http://www.autoblog.com/2014/02/07/kia-optima-hybrid-chicago-2014/"></a>
+        </div>
+    </div>
+ 
+      <div class="dark-wrapper">
+	  <span class="slide-title">Title</span>
+<div class="dark">
+   
+	<img src="http://o.aolcdn.com/hss/storage/adam/b59833836420ff9812c8e2d59137700a/2015-chevrolet-silverado-hd-cng-chicago.jpg">
+	<p>2015 Chevrolet Silverado</p>
+<a href="http://www.autoblog.com/2014/02/07/2015-chevrolet-silverado-hd-cng-chicago-2014/"></a>
+	
+    </div>
+    </div>
+        </li>
+     
+  <li>
+      <div class="dark-wrapper">
+	  <span class="slide-title">Title</span>
+<div class="dark">
+        <img src="http://o.aolcdn.com/hss/storage/adam/a1289c4c6916baabb98e4673c7052f8/2014-hyundai-veloster-reflex-chicago.jpg">
+    <p>2014 Hyundai Veloster </p>
+<a href="http://www.autoblog.com/2014/02/07/2014-hyundai-veloster-re-flex-chicago-2014/"></a>
+	</div>
+    </div>
+
+ <div class="dark-wrapper">
+ <span class="slide-title">Title</span>
+ <div class="dark">
+            <img src="http://o.aolcdn.com/hss/storage/adam/a039929c8405451173090144693c1fa0/vw-grc-beetle-chicago.jpg">
+			<p>Volkswagen GRC Beetle </p>
+<a href="http://www.autoblog.com/2014/02/07/volkswagen-grc-beetle-is-herbies-angry-progeny/"></a>
+        </div>
+     </div>
+ 
+     <div class="dark-wrapper">
+	  <span class="slide-title">Title</span>
+<div class="dark">
+        <img src="http://o.aolcdn.com/dims-shared/dims3/GLOB/crop/1280x850+0+0/resize/628x417!/format/jpg/quality/85/http://o.aolcdn.com/hss/storage/adam/1799bb1e072b82bda13c81563bdf5d0f/01-lingenfelter-reaper-chicago-1.jpg">
+    <p>Lingenfelter Chevy Reaper</p>
+<a href="http://www.autoblog.com/2014/02/07/lingenfelter-chevy-reaper-silverado-chicago-2014/"></a>
+	</div>
+    </div>
+        </li>   
+    <li>
+        <div class="dark-wrapper">
+		 <span class="slide-title">Title</span>
+<div class="dark">
+        <img src="http://o.aolcdn.com/hss/storage/adam/d4fd84267cfbfd7b496a15f6ce03c769/toyota-trd-pro-series-chicago.jpg">
+		<p>Toyota demos</p>
+<a href="http://www.autoblog.com/2014/02/07/toyota-trd-pro-series-tacoma-tundra-4runner-chicago-2014/"></a>
+    </div>
+     </div>
+  
+ <div class="dark-wrapper">
+ <span class="slide-title">Title</span>
+ <div class="dark">
+            <img src="http://o.aolcdn.com/hss/storage/adam/c68b8ec170eff88e965cb03aadff2391/dodge-charger-satin-vapor-chicago.jpg">
+        <p>SRT</p>
+<a href="http://www.autoblog.com/2014/02/07/chevy-corvette-stingray-captain-america-black-widow-chicago-2014/"></a>
+		</div>
+     </div>
+     
+     <div class="dark-wrapper">
+	 <span class="slide-title">Title</span>
+     <div class="dark">
+                <img src="http://o.aolcdn.com/hss/storage/adam/ca27056ea6d7f8db47a5a83ccb7b152d/001-nissan-nv200-chicago-taxi_628opt.jpg">
+            <p>Nissan NV200</p>
+<a href="http://www.autoblog.com/2014/02/07/nissan-nv200-chicago-taxi-chicago-2014/"></a>
+			</div>
+         </div>
+        </li>
+            
+            
+    
+  </ul>  
+</div>
+</div>
+
+
+<!--End slider -->
+
+		  </div><!-- .info -->
+		  
+		  <div class="sidebar">
+		  
+		  <ul class="sidebar-pics">
+		  <li><h6>Mersedes</h6><img src="http://o.aolcdn.com/dims-shared/dims3/GLOB/crop/668x436+30+0/resize/628x410!/format/jpg/quality/85/http://o.aolcdn.com/hss/storage/midas/ec18631ea2b30ccef4f61e7351f46a92/200108672/1994-Chevrolet-Highlander-Concept-001.jpg" alt=""></li>
+		  <li><h6>Mersedes</h6><img src="http://o.aolcdn.com/hss/storage/adam/5d7b5eedccc289bd332af80a1ad5a226/montero-2017-us.jpg"></li>
+		  </ul>
+		  		  
+		<div class="comment">
+  <div class="comment-image">
+    <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1.png" alt="Logo image">
+  </div>
+  <div class="comment-content">
+    <h1>First Title</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+    <p class="comment-detail">Date or details about this post</p>
+  </div>
+</div>
+
+<div class="comment">
+  <div class="comment-image">
+    <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_2.png" alt="Logo image">
+  </div>
+  <div class="comment-content">
+    <h1>Another One</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+    <p class="comment-detail">Date or details about this post</p>
+  </div>
+</div>
+	  
+				  
+		  </div>
+		  
+		  </section><!-- #content -->
+		  
+         
+  <div class="push"></div>
+</div><!-- wrapper-for-content-outside-of-footer -->
+
+<footer class="footer-2">
+  <div class="footer-logo">
+    <img src="img/logo-small.png" alt="" title="">
+  </div>
+    <ul>
+      <li><a href="javascript:void(0)">About</a></li>
+      <li><a href="javascript:void(0)">Products</a></li>
+      <li><a href="javascript:void(0)">Prices</a></li>
+	  <li><a href="javascript:void(0)">Contacts</a></li>
+    </ul>
+
+    <div class="footer-secondary-links">
+      <ul>
+        <li><a href="javascript:void(0)">Terms and Conditions</a></li>
+        <li><a href="javascript:void(0)">Privacy Policy</a></li>
+      </ul>
+
+      <ul class="footer-social">
+        <li><a href="javascript:void(0)">
+          <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/facebook-logo-circle.png" alt="Facebook">
+          </a></li>
+        <li><a href="javascript:void(0)">
+          <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/twitter-logo-circle.png" alt="Twitter">
+        </a></li>
+        <li><a href="javascript:void(0)">
+          <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/youtube-logo-circle.png" alt="YouTube">
+        </a></li>
+      </ul>
+    </div>
+</footer>
+
+<div class="mask-modal"></div>
+		<div class="scroll-to-top"><img src="img/arrow_up.png" alt="" title=""></div>
+
+		
+        <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+		<script src="js/dropdown.js"></script>
+		<script src="carusel/js/carusel.js"></script>
+        <script src="js/main.js"></script>
+	
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+
+    </body>
+</html>
