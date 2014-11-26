@@ -68,6 +68,8 @@ cursor:pointer;
 
 
 .hide-scroll {
+@include centered;
+max-width: 64em;
  transform: translate3d(0, 0, 0);
  @include transition (transform 1.0s ease-in 0s);
 }
@@ -79,6 +81,8 @@ cursor:pointer;
 
  
  .wrapper-hide-scroll {
+ @include centered;
+ max-width: 64em;
    overflow:hidden;
  }
 
