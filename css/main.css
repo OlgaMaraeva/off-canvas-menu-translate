@@ -373,6 +373,10 @@ a {
     clear: both; }
 
 .hide-scroll {
+ max-width: 64em;
+position:relative;
+display:block;
+margin:0 auto;
   transform: translate3d(0, 0, 0);
   -webkit-transition: -webkit-transform 1s ease-in 0s;
   -moz-transition: -moz-transform 1s ease-in 0s;
@@ -382,6 +386,10 @@ a {
   transform: translate3d(240px, 0, 0); }
 
 .wrapper-hide-scroll {
+ max-width: 64em;
+position:relative;
+display:block;
+margin:0 auto;
   overflow: hidden; }
 
  /* -----start floating-menu with width changing
